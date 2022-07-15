@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Outfit:wght@100&family=Playfair+Display+SC&family=Waterfall&display=swap');
+
+
+body {
+    font-family: 'Italianno', cursive;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background: rgb(255, 237, 237);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.food-navbar{
+    background: #f74343;
+}
+
+.food-navbar .navbar-brand{
+    color: #761f09;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.food-navbar .navbar-brand:hover{
+    font-weight: bolder;
+    color: #c14242;
+}
+
+.food-search-btn{
+    color: white;
+    background-color: #f74343;
+}
+
+.food-search-btn:hover{
+    background-color: #fa6868;
+    color: white;
+}
+
+h2{
+    color: black;
+    font-weight: bolder;
+}
+
+.card{
+    width: 500px;
+    margin: auto;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    border-color: #fa6868;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background-color: white;
+}
+
+
+.food-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.food-info > p {
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.food-list {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    padding: 16px;
+}
+
+@media(max-width: 1000px) {
+    .card {
+        width: 20rem;
+    }
+
+    .food-form {
+        width: 70%;
+        margin-right: 1em;
+    }
+
+    .form-inline {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    
+}
